@@ -4,34 +4,34 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #faf8f5; /* Premium, academic off-white/ivory background */
+    background-color: #faf8f5; /* Premium, academic off-white background */
 }
 
 /* Force the body to be a flex container that perfectly centers its content */
 body {
     display: flex;
-    justify-content: center; /* Horizontally centers the link */
-    align-items: center;     /* Vertically centers the link */
-    padding: 0 24px;         /* Prevents long text from hugging mobile screen edges */
+    justify-content: center; /* Horizontally centers the container */
+    align-items: center;     /* Vertically centers the container */
+    padding: 0 24px;         /* Keeps text from hugging mobile screen edges */
 }
 
 /* Style the text paragraph wrapper */
 .academic-link-container {
-    max-width: 650px;        /* Slightly narrower for an elegant mobile layout */
-    text-align: left;        /* Keeps the text block cleanly aligned left */
+    max-width: 480px;        /* NARROWER WIDTH: Forces it into a punchy, column-like shape */
+    text-align: center;      /* CENTERED FORMAT: Centers the rows of text relative to each other */
     margin: 0;               /* Resets margins since flexbox handles spacing */
 }
 
 /* Style the actual clickable anchor link text */
 .academic-link-container a {
     font-family: 'Georgia', serif; /* Classic, serious academic serif font */
-    font-size: 1.25rem;            /* Perfectly readable sizing for phone screens */
-    line-height: 1.7;              /* Gives the dense text room to breathe */
+    font-size: 1.65rem;            /* BIGGER FONT: Makes the title loud and clear on mobile */
+    line-height: 1.6;              /* Gives the large text clean spacing between rows */
     font-weight: bold;
     color: #111111;                /* Crisp, rich charcoal black for high contrast */
     text-decoration: underline;    /* Standard link look so they know to tap it */
     text-decoration-color: #a51c30; /* Adds a premium Ivy League Crimson underline */
-    text-underline-offset: 4px;    /* Pushes the line down slightly for a clean look */
+    text-underline-offset: 6px;    /* Pushes the line down slightly for a clean look */
     transition: all 0.2s ease-in-out; /* Smooth color fade if clicked or tapped */
 }
 
