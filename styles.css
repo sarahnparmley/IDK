@@ -11,81 +11,112 @@ html{
 body{
 
     background:#faf8f5;
-    color:#111;
+    color:#111111;
+
     font-family:Georgia, serif;
 
-    max-width:430px;
-    margin:auto;
+    width:100%;
+    min-height:100vh;
 
-    padding:40px 20px 80px;
+    padding:50px 20px 80px;
+
+}
+
+main{
+
+    max-width:420px;
+    margin:0 auto;
+
 }
 
 .logo{
 
-    width:170px;
+    width:180px;
+
     display:block;
+
     margin:0 auto 60px;
+
 }
 
-.portfolio-section{
+.portfolio{
 
     margin-bottom:70px;
+
 }
 
-.portfolio-section h2{
+.portfolio h2{
 
     font-size:.8rem;
+
     letter-spacing:4px;
+
     color:#a51c30;
 
-    margin-bottom:22px;
+    margin-bottom:25px;
+
 }
 
-.portfolio-section img{
+.portfolio img{
 
     width:100%;
+
     display:block;
 
-    margin-bottom:18px;
+    margin-bottom:20px;
 
-    border-radius:6px;
+    border-radius:8px;
+
+}
+
+.faq{
+
+    margin-bottom:60px;
+
 }
 
 .faq h2{
 
     font-size:.8rem;
+
     letter-spacing:4px;
+
     color:#a51c30;
 
     margin-bottom:25px;
+
 }
 
 details{
 
-    border-top:1px solid #ddd;
+    border-top:1px solid #d7d7d7;
 
     padding:18px 0;
+
 }
 
 details:last-child{
 
-    border-bottom:1px solid #ddd;
+    border-bottom:1px solid #d7d7d7;
+
 }
 
 summary{
 
+    list-style:none;
+
     cursor:pointer;
+
+    font-weight:bold;
 
     font-size:1rem;
 
-    list-style:none;
-
-    font-weight:bold;
 }
 
 summary::-webkit-details-marker{
 
     display:none;
+
 }
 
 summary::after{
@@ -96,21 +127,24 @@ summary::after{
 
     color:#a51c30;
 
-    font-size:1.2rem;
+    font-size:1.3rem;
+
 }
 
 details[open] summary::after{
 
-    content:"–";
+    content:"−";
+
 }
 
 details p{
 
-    margin-top:14px;
+    margin-top:15px;
 
     line-height:1.7;
 
-    color:#555;
+    color:#555555;
 
     font-size:.95rem;
+
 }
